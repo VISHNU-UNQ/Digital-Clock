@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="./Digitalclock.css">
+</head>
+<!-- whenever we open boduy it should get execute so we give function in body tag. -->
+
+<!-- onload="setInterval(digitalClock,1000);" -->
+<body onload="setInterval(digitalClock,1000)">
+    <h1>Digital Clock⌚</h1>
+    <div class="container">
+        <div>
+            <span>HH</span> : 
+            <span>MM</span> :
+            <span>SS</span> 
+        </div>
+        <div>
+            <span>DD</span> :
+            <span>MM</span> :
+            <span>YYYY</span> 
+        </div>
+        <div>
+            <span>Day</span>
+        </div>
+    </div>
+
+    <!-- Easy way now. same output. -->
+    <div class="container">
+        <div>
+            <span>Time</span>
+        </div>
+        <div>
+            <span>Date</span>
+        </div>
+    </div>
+    <script src="./Digitalclock.js"></script>
+</body>
+</html>

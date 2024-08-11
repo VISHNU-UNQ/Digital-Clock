@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+.container{
+    border: solid 2px black;
+    border-radius: 10px;
+    width: 40%;
+    margin:100px auto;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
